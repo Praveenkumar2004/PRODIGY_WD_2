@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+
+.stopwatch {
+  text-align: center;
+}
+h2{
+  font-size: large;
+  margin-bottom: 10px;
+}
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.controls button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#lapsList {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+  text-align: left;
+}
+
+.lapItem {
+  margin-bottom: 5px;
+}
